@@ -1,0 +1,30 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+body {
+  font-size: 1em;
+}
+
+div {
+  display: block;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  font-size: 2rem;
+  list-style: none;
+}
